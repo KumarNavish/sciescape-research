@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-15",
+  "scope": "Static showcase redesign and interactive panorama viewer",
+  "browser": "Chrome on macOS, native browser automation",
+  "passed": [
+    "All five original panorama SHA-256 hashes match evidence/gallery.json",
+    "All local HTML asset references resolve",
+    "JavaScript syntax checks and git diff --check",
+    "All five worlds open in the perspective panorama viewer",
+    "Mouse drag, arrow keys, zoom buttons and scene switching",
+    "Escape and close restore opener focus and body scroll",
+    "Close and reopen works with a fresh canvas after GPU cleanup",
+    "Responsive widths320,390,768,1440 without horizontal page overflow",
+    "Mobile panorama controls fit the viewport",
+    "Reduced-motion preference disables entry animations",
+    "Blocked viewer module displays the flat-image fallback and original-image link"
+  ],
+  "rendering": "On demand; maximum2million drawing pixels and1.5devicepixelratio; no continuous render loop",
+  "external_runtime_dependencies": 0,
+  "source_media_modified": false,
+  "limits": [
+    "Mobile layouts tested with viewport emulation, not a physical phone",
+    "360-degree viewing from a single position; no walkable geometry or live voice/avatar demonstration"
+  ]
+}

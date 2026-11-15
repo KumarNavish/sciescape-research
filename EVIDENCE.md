@@ -16,7 +16,7 @@ This is a curated release from Sciescape, Navish Kumar's independent research pr
 
 Each archived receipt records a completed text-to-panorama path, 24 depth views and a constructed 750,000-splat scene asset. This release includes the 1920 × 960 panorama images. It does not include the larger scene assets, model weights or a live inference service.
 
-The times are recorded worker stages, not cold-start time or complete visitor response latency. These five selected scenes demonstrate visual generation; they are not a random sample or a benchmark of navigation reliability. A flat panorama also stretches its poles. The cover crops the original image through CSS; the gallery opens the full original.
+The times are recorded worker stages, not cold-start time or complete visitor response latency. These five selected scenes demonstrate visual generation; they are not a random sample or a benchmark of navigation reliability. A flat panorama also stretches its poles. The cover and gallery crop the original images through CSS. The interactive viewer projects each original panorama around a fixed viewpoint; it adds no geometry or new generated content. Each preview also links to the full original image.
 
 [Machine-readable provenance and hashes](evidence/gallery.json) identify every image and source job. Local archived receipts were checked before release. Only the relevant fields are exported; private logs and infrastructure details are excluded.
 
