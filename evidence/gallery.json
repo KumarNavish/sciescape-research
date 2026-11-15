@@ -1,0 +1,66 @@
+{
+  "verified_date": "2026-11-15",
+  "scope": "Selected archived outputs; worker timings are not complete visitor latency. Original image bytes preserved.",
+  "media": [
+    {
+      "asset": "assets/bamboo.png",
+      "source_job": "69beff2cfa7648d7bb936d9ca746cc42",
+      "sha256": "eead78fd70ceb44ebe691e34ed99bc4017574c9f87c89fba97212753db350e35",
+      "width": 1920,
+      "height": 960,
+      "path": "panorama from words",
+      "worker_stage_seconds": 24.778,
+      "depth_views": 24,
+      "constructed_splats": 750000,
+      "complete": true
+    },
+    {
+      "asset": "assets/canal.png",
+      "source_job": "7dceb04207234465a6eeb7474c10f433",
+      "sha256": "241feb25e8044a84ae2fe8522f6188c13b5ea716e27b6fdf9d758742384ae53d",
+      "width": 1920,
+      "height": 960,
+      "path": "panorama from words",
+      "worker_stage_seconds": 24.806,
+      "depth_views": 24,
+      "constructed_splats": 750000,
+      "complete": true
+    },
+    {
+      "asset": "assets/hut.png",
+      "source_job": "85f509a6b01142c7a26cd2781f1a1524",
+      "sha256": "a19aa99e098ba68058ee5410360990245fa9dec29433a1367eaed347cf6a3baa",
+      "width": 1920,
+      "height": 960,
+      "path": "panorama from words",
+      "worker_stage_seconds": 29.615,
+      "depth_views": 24,
+      "constructed_splats": 750000,
+      "complete": true
+    },
+    {
+      "asset": "assets/reading-room.png",
+      "source_job": "508547a097fc48fe864ff028f54abe5c",
+      "sha256": "9ce79e18ba32b53e94fa5c31c84b796c58a267baa8afc9a2a0ca6dc38d0d898d",
+      "width": 1920,
+      "height": 960,
+      "path": "panorama from words",
+      "worker_stage_seconds": 26.123,
+      "depth_views": 24,
+      "constructed_splats": 750000,
+      "complete": true
+    },
+    {
+      "asset": "assets/oasis.png",
+      "source_job": "04dd89b91fbc4a8393279a247f0b7cca",
+      "sha256": "30d1e44937d6b87d827d203925da99cec592fe5475d8f04a5efea57e6eb0001b",
+      "width": 1920,
+      "height": 960,
+      "path": "panorama from words",
+      "worker_stage_seconds": 24.61,
+      "depth_views": 24,
+      "constructed_splats": 750000,
+      "complete": true
+    }
+  ]
+}

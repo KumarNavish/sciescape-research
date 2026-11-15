@@ -1,0 +1,13 @@
+Sciescape research showcase
+Copyright 2026 Sciescape contributors
+
+Code: Apache-2.0. Documentation and selected synthetic media: see MEDIA_LICENSE.md.
+
+research/batch_runtime.py and tests/test_batch_runtime.py originate in Sciescape,
+source revision 6af6e3ce4c5b84a0f17a2ced4d3b4ab6a8e15183.
+The runtime is unchanged. The test import path was adapted for this separate
+research release and is marked in the file.
+
+Selected images were generated with Qwen-Image (Alibaba/Qwen), QwenImage360
+(CedarC), and Qwen-Image-Lightning (LightX2V). No model weights are included.
+See EVIDENCE.md for exact revisions and attribution links.
