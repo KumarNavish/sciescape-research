@@ -11,8 +11,15 @@ const dialog = document.querySelector('#world-viewer');
 let canvas = document.querySelector('#panorama');
 const status = document.querySelector('#viewer-status');
 const fallback = document.querySelector('#viewer-fallback');
+const film = document.querySelector('#research-film');
 let viewer, opener, currentWorld, loadVersion = 0;
 let createPanorama;
+
+// Playback is deliberate; stop it when the page or panorama takes over.
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) film?.pause();
+});
+window.addEventListener('pagehide', () => film?.pause());
 
 // Cover changes are deliberate. No slideshow or background render loop.
 document.querySelector('.scene-switcher').hidden = false;
@@ -72,6 +79,7 @@ if (dialog && typeof dialog.showModal === 'function') {
     if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     opener = link;
+    film?.pause();
     document.body.classList.add('viewer-open');
     dialog.showModal();
     selectWorld(link.dataset.world);

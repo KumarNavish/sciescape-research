@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-16",
+  "duration_seconds": 84,
+  "fps": 24,
+  "output": "assets/sciescape-film.mp4",
+  "output_sha256": "565dbf9f519cae8dc775a0fe560adf9a510488a06a1356e4c3b16eee0c8936d7",
+  "sources": [
+    {
+      "path": "assets/bamboo.png",
+      "sha256": "eead78fd70ceb44ebe691e34ed99bc4017574c9f87c89fba97212753db350e35",
+      "use": "Original panorama, perspective camera rotation only"
+    },
+    {
+      "path": "assets/canal.png",
+      "sha256": "241feb25e8044a84ae2fe8522f6188c13b5ea716e27b6fdf9d758742384ae53d",
+      "use": "Original panorama, perspective camera rotation only"
+    },
+    {
+      "path": "assets/hut.png",
+      "sha256": "a19aa99e098ba68058ee5410360990245fa9dec29433a1367eaed347cf6a3baa",
+      "use": "Original panorama, perspective camera rotation only"
+    },
+    {
+      "path": "assets/oasis.png",
+      "sha256": "30d1e44937d6b87d827d203925da99cec592fe5475d8f04a5efea57e6eb0001b",
+      "use": "Original panorama, perspective camera rotation only"
+    },
+    {
+      "path": "assets/reading-room.png",
+      "sha256": "9ce79e18ba32b53e94fa5c31c84b796c58a267baa8afc9a2a0ca6dc38d0d898d",
+      "use": "Original panorama, perspective camera rotation only"
+    },
+    {
+      "path": "assets/film-source/flashworld-research.mp4",
+      "sha256": "0698c423d5f458498a2e0f642d315ddf95a359d31587b0e82af51acbfd6c085b",
+      "use": "Contiguous 3\u201315 second excerpt, original speed, full frame; frame duplication converts 15 to 24 fps",
+      "model": "FlashWorld",
+      "model_revision": "6a8e88c6f88678ac098e4c82675f0aee555d6e5d",
+      "model_license": "CC BY-NC-SA 4.0",
+      "source_job": "ff5af870853041119c1972c83bea0a7f"
+    }
+  ],
+  "shots": [
+    {
+      "start": 0,
+      "end": 8,
+      "asset": "bamboo",
+      "yaw": [
+        4,
+        25
+      ],
+      "title": "Somewhere starts\nwith a sentence.",
+      "label": "SCIESCAPE / A RESEARCH FILM",
+      "note": "Original generated panorama \u00b7 camera rotation from one position"
+    },
+    {
+      "start": 8,
+      "end": 15,
+      "asset": "hut",
+      "yaw": [
+        -24,
+        8
+      ],
+      "title": "Five places.\nGenerated from words.",
+      "label": "01 / WHAT EXISTS",
+      "note": "Selected prototype outputs \u00b7 not a live generation recording"
+    },
+    {
+      "start": 15,
+      "end": 22,
+      "asset": "canal",
+      "yaw": [
+        20,
+        53
+      ],
+      "title": "Stay for the blue hour.",
+      "label": "CANAL AT DUSK",
+      "note": "Original generated panorama \u00b7 fixed viewpoint"
+    },
+    {
+      "start": 22,
+      "end": 28,
+      "asset": "oasis",
+      "yaw": [
+        -20,
+        12
+      ],
+      "title": "Follow your curiosity.",
+      "label": "DESERT OASIS",
+      "note": "Original generated panorama \u00b7 fixed viewpoint"
+    },
+    {
+      "start": 28,
+      "end": 40,
+      "asset": "flashworld",
+      "yaw": [
+        0,
+        0
+      ],
+      "title": "A scene with depth.",
+      "label": "RECORDED 3D EXPERIMENT",
+      "note": "FlashWorld baseline \u00b7 recorded camera path \u00b7 not live app navigation"
+    },
+    {
+      "start": 40,
+      "end": 49,
+      "asset": "reading-room",
+      "yaw": [
+        -19,
+        17
+      ],
+      "title": "A beautiful view\nis only the beginning.",
+      "label": "02 / THE UNSOLVED PART",
+      "note": "Archived geometry evaluation: 2 of 21 development cases completed"
+    },
+    {
+      "start": 49,
+      "end": 58,
+      "asset": "bamboo",
+      "yaw": [
+        28,
+        -5
+      ],
+      "title": "What if the world remembered\nwhat you changed?",
+      "label": "RESEARCH GOAL",
+      "note": "Coherent movement and persistent edits remain under development"
+    },
+    {
+      "start": 58,
+      "end": 66,
+      "asset": "canal",
+      "yaw": [
+        50,
+        22
+      ],
+      "title": "A lifelike guide.\nAn understanding of your view.",
+      "label": "RESEARCH GOAL",
+      "note": "Natural voice and a grounded 3D avatar \u00b7 the full journey is not yet solved"
+    },
+    {
+      "start": 66,
+      "end": 74,
+      "asset": "hut",
+      "yaw": [
+        9,
+        -19
+      ],
+      "title": "One shared world.\nSight. Action. Conversation.",
+      "label": "THE ENGINEERING QUESTION",
+      "note": "Can shared persistent scene state make the complete journey reliable?"
+    },
+    {
+      "start": 74,
+      "end": 84,
+      "asset": "bamboo",
+      "yaw": [
+        0,
+        18
+      ],
+      "title": "Help turn a scene\ninto somewhere.",
+      "label": "SCIESCAPE / NAVISH KUMAR",
+      "note": "Independent research \u00b7 inspect the evidence \u00b7 support the next experiment"
+    }
+  ],
+  "audio": "Original synthesized ambient composition; no third-party samples or voice",
+  "limits": [
+    "Selected prototype and baseline outputs, not representative performance",
+    "Panoramas rotate at one viewpoint; no new geometry",
+    "3D sequence is a FlashWorld baseline, not a Sciescape novelty claim",
+    "No live generation, free-walking app session, interactive avatar or voice acceptance is claimed"
+  ],
+  "visual_method": {
+    "mechanism": "Camera orientation changes which rays sample an unchanged spherical panorama. The recorded 3D baseline separately shows actual camera-path parallax.",
+    "construction": "Perspective camera inside the original image sphere; no invented camera translation. Flat image panning was rejected because it distorts viewing geometry.",
+    "references": [
+      "Plenoxels: follow one camera ray into spatial samples; oblique camera and sparse labels",
+      "Gauge paths: retain object identity while orientation changes; shared object colour and matched states"
+    ],
+    "colour": "Original source colours preserved; warm cream type, gold editorial labels, mint secondary text, deep green letterbox; no data colour mapping"
+  }
+}

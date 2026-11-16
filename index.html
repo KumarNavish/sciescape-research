@@ -23,15 +23,15 @@
     <div class="hero-shade" aria-hidden="true"></div>
     <nav class="topbar" aria-label="Main navigation">
       <a class="wordmark" href="#top" aria-label="Sciescape home">sciescape<span aria-hidden="true">.</span></a>
-      <div class="nav-links"><a href="#worlds">The worlds</a><a href="#vision">The ambition</a><a href="#research">The research <span aria-hidden="true">↗</span></a></div>
+      <div class="nav-links"><a href="#film">The film</a><a href="#worlds">The worlds</a><a href="#research">The research <span aria-hidden="true">↗</span></a></div>
     </nav>
     <div class="hero-body">
       <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> An independent exploration</p>
       <h1>Somewhere starts<br>with a <em>sentence.</em></h1>
       <p class="hero-intro">What if you could step inside an idea?<br>Explore it. Change it. Understand it together.</p>
       <div class="hero-actions">
-        <a class="button button-light" id="hero-enter" href="assets/bamboo.png" data-world="bamboo">Step inside <span aria-hidden="true">↗</span></a>
-        <span class="action-note">Explore a generated<br>360° panorama</span>
+        <a class="button button-light" href="#film">Watch the film <span aria-hidden="true">▷</span></a>
+        <a class="text-link" id="hero-enter" href="assets/bamboo.png" data-world="bamboo" aria-label="Step inside a generated 360-degree panorama">Step inside <span aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="hero-bottom">
@@ -48,6 +48,29 @@
   </header>
 
   <main>
+    <section class="film section" id="film" aria-labelledby="film-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">84 seconds / A research film</p><h2 id="film-title">An idea worth<br><em>stepping into.</em></h2></div>
+        <div class="section-aside"><p>The places, the progress, and the question behind Sciescape.</p></div>
+      </div>
+      <figure class="film-frame">
+        <video id="research-film" controls playsinline preload="none" poster="assets/film-poster.jpg" width="1920" height="1080" aria-labelledby="film-title" aria-describedby="film-note">
+          <source src="assets/sciescape-film.mp4" type="video/mp4">
+          <track kind="captions" src="assets/film-captions.vtt" srclang="en" label="English">
+          <p>Your browser cannot play this film. <a href="assets/sciescape-film.mp4">Open the MP4</a> or <a href="assets/film-captions.vtt">read the timed transcript</a>.</p>
+        </video>
+        <figcaption class="film-caption">
+          <p id="film-note">Original panoramas and recorded prototype outputs. A complete live journey remains the research goal.</p>
+          <a href="assets/sciescape-film.mp4">Open the film <span aria-hidden="true">↗</span></a>
+        </figcaption>
+      </figure>
+      <details class="film-context">
+        <summary>Film description &amp; transcript</summary>
+        <p>Five generated places introduce the ambition: a world that stays coherent as you move and change it, with a lifelike guide grounded in what you see. The film separates existing visual outputs from that goal. It does not demonstrate a complete live conversation or freely walkable world.</p>
+        <a href="assets/film-captions.vtt">Read the timed transcript</a> · <a href="https://github.com/KumarNavish/sciescape-research/blob/main/film/README.md">Film credits &amp; provenance</a>
+      </details>
+    </section>
+
     <section class="worlds section" id="worlds" aria-labelledby="worlds-title">
       <div class="section-heading">
         <div><p class="eyebrow">01 — The beginnings</p><h2 id="worlds-title">A little further<br>from <em>ordinary.</em></h2></div>

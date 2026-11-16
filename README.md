@@ -10,6 +10,10 @@ Imagine a place, step inside, and learn with a lifelike guide who understands th
 
 **[Explore the visual showcase →](https://kumarnavish.github.io/sciescape-research/)**
 
+**[Watch the research film →](https://kumarnavish.github.io/sciescape-research/#film)**
+
+An 84-second, 1080p film presents the original panoramas and a recorded 3D baseline, alongside the ambition for coherent worlds and an embodied conversation. It includes an original ambient score, captions and a timed transcript. It does not claim a complete live journey. Playback starts only when requested.
+
 ### What exists
 
 The working text-to-panorama pipeline has produced the five archived scenes below. This repository preserves the original image bytes and makes their provenance inspectable.
@@ -48,6 +52,10 @@ Open `http://127.0.0.1:8197`. No build step, package install, API key or GPU is 
 
 The dependency-free WebGL viewer loads only on entry, draws only when needed, caps its drawing buffer at two million pixels, and releases its graphics resources on close. Unsupported devices retain a flat-image fallback and a link to the original. There are no trackers, background videos, continuous render loops or paid API calls.
 
+The film uses `preload="none"` and no autoplay. It pauses when the page is hidden or a panorama opens. Its poster, MP4 and captions are local assets; no video service or third-party player is embedded.
+
 This public showcase is separate from the private Sciescape application. It contains selected research outputs and public research code, not credentials or private operational records.
 
 Showcase verification (15 November 2026): all five interactive views, keyboard/focus recovery, responsive layouts, reduced motion and loading fallback checked in Chrome. [Validation record](evidence/showcase-validation.json).
+
+Film verification (16 November 2026): all 2,016 video frames and the stereo audio decoded successfully. Chrome playback, English captions, no initial video buffering, panorama-entry pause and 390-pixel layout bounds were checked. [Film sources, credits and reproduction](film/README.md).

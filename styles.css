@@ -45,7 +45,7 @@ button {
 button,a {
   -webkit-tap-highlight-color:transparent;
 }
-button:focus-visible,a:focus-visible,canvas:focus-visible {
+button:focus-visible,a:focus-visible,canvas:focus-visible,video:focus-visible,summary:focus-visible {
   outline:2px solid var(--gold);
   outline-offset:5px;
 }
@@ -179,6 +179,7 @@ h1 em,h2 em {
 }
 .hero-actions {
   display:flex;
+  flex-wrap:wrap;
   align-items:center;
   gap:23px;
   margin-top:35px;
@@ -307,6 +308,54 @@ h2 {
   font-size:9px;
   letter-spacing:.04em;
   color:var(--sage);
+}
+.film {
+  background:var(--deep);
+}
+.film-frame {
+  margin:0;
+}
+.film-frame video {
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:16/9;
+  background:var(--night);
+  border:1px solid var(--line);
+}
+.film-caption {
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:12px 30px;
+  padding-top:20px;
+  color:var(--sage);
+  font-size:11px;
+  line-height:1.8;
+}
+.film-caption p {
+  max-width:660px;
+}
+.film-caption a {
+  color:var(--mint);
+  white-space:nowrap;
+}
+.film-context {
+  max-width:760px;
+  margin-top:22px;
+  font-size:12px;
+  line-height:1.8;
+  color:var(--mint);
+}
+.film-context summary {
+  width:fit-content;
+  padding:8px 0;
+  cursor:pointer;
+  color:var(--cream);
+}
+.film-context p {
+  margin:12px 0;
 }
 .world-grid {
   display:grid;

@@ -30,6 +30,12 @@ The images were generated with existing models, not a foundation model trained b
 
 Their published licence declarations were checked as Apache-2.0 on 15 November 2026. Model licences and generated-media rights are distinct; no model weights are redistributed here. See [media terms](MEDIA_LICENSE.md).
 
+## The research film
+
+[Watch the 84-second film](https://kumarnavish.github.io/sciescape-research/#film). It combines perspective views of the five unchanged panoramas with a recorded FlashWorld 3D baseline. The 3D excerpt is an actual camera path through a generated scene; it is not a live Sciescape walkthrough or evidence of a new method. The source clip, model revision, original hashes, editorial transformations and research limits are recorded in [the film manifest](evidence/film.json).
+
+The film labels the remaining goals explicitly: coherent movement, persistent edits, a lifelike guide and integrated natural voice. Its original instrumental score contains no speech or third-party audio samples. [Attribution, media terms and reproducible renderer](film/README.md).
+
 ## A practical tool for limited compute
 
 [The batch runtime](research/batch_runtime.py) preserves completed cases across interruptions, checks artifact hashes, rejects changed run identities and duplicate writers, and bounds child processes with a deadline. It never allocates cloud resources.

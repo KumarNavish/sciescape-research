@@ -1,5 +1,7 @@
 # Media and documentation
 
+The 84-second research film and `assets/film-source/flashworld-research.mp4` have separate **CC BY-NC-SA 4.0** terms. See [film attribution and provenance](film/README.md). The panorama terms below remain unchanged.
+
 The five images in `assets/` are synthetic panorama outputs from the Sciescape research pipeline. They are shared for inspection and reuse under [CC BY 4.0](licenses/CC-BY-4.0.txt), to the extent the contributors hold copyright or related rights. This is not a claim that machine-generated material necessarily attracts copyright in every jurisdiction.
 
 Suggested credit: **Sciescape / Navish Kumar, 2026. Generated with Qwen-Image, CedarC QwenImage360 and LightX2V Qwen-Image-Lightning.**
