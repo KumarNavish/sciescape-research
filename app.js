@@ -123,7 +123,7 @@ const stateConfig = {
         label: 'Shared World State (0.37 cm)',
         badge: 'SHARED WORLD STATE · VERIFIED',
         metric: '0.37 cm median gaze error · 20/20 IDs',
-        reticle: { left: '78%', top: '57%', anchored: true, tag: 'timber_shelter_01 · 0.37 cm' },
+        reticle: { left: '89%', top: '66%', anchored: true, tag: 'timber_shelter_01 · 0.37 cm' },
         log: `> visitor.gaze_raycast(yaw=+68.2°, pitch=-4.1°)
   world_state.hit   : node("timber_shelter_01")
   visibility_check  : PASSED (occluded=false)
